@@ -1,4 +1,4 @@
-package microservicio_inventario.model;
+package com.example.microservicio_inventario.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -25,6 +25,7 @@ public class Producto {
     private String nombre;
     private String descripcion;
     private Double precio;
+    private Double precioOferta;
     private String imagen;
     private Boolean enOferta;
     private Boolean destacado;

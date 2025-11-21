@@ -1,9 +1,9 @@
-package microservicio_inventario.controller;
+package com.example.microservicio_inventario.controller;
 
-import microservicio_inventario.model.Categoria;
-import microservicio_inventario.dto.CategoriaDTO;
-import microservicio_inventario.assembler.CategoriaAssembler;
-import microservicio_inventario.service.CategoriaService;
+import com.example.microservicio_inventario.model.Categoria;
+import com.example.microservicio_inventario.DTO.CategoriaDTO;
+import com.example.microservicio_inventario.assembler.CategoriaAssembler;
+import com.example.microservicio_inventario.service.CategoriaService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v1/categorias")
+@RequestMapping("/api/v1/categorias")
 public class CategoriaController {
 
     private final CategoriaService categoriaService;

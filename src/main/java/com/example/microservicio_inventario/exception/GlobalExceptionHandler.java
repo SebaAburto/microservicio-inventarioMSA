@@ -1,4 +1,4 @@
-package microservicio_inventario.exception;
+package com.example.microservicio_inventario.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

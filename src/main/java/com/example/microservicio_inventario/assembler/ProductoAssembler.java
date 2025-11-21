@@ -1,7 +1,7 @@
-package microservicio_inventario.assembler;
+package com.example.microservicio_inventario.assembler;
 
-import microservicio_inventario.model.Producto;
-import microservicio_inventario.dto.ProductoDTO;
+import com.example.microservicio_inventario.model.Producto;
+import com.example.microservicio_inventario.DTO.ProductoDTO;
 import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.stream.Collectors;

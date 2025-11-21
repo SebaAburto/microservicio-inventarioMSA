@@ -1,6 +1,6 @@
-package microservicio_inventario.service;
+package com.example.microservicio_inventario.service;
 
-import microservicio_inventario.model.Inventario;
+import com.example.microservicio_inventario.model.Inventario;
 import java.util.List;
 
 public interface InventarioService {

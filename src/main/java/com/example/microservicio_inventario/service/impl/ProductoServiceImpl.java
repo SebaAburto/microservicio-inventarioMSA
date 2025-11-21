@@ -1,10 +1,10 @@
-package microservicio_inventario.service.impl;
+package com.example.microservicio_inventario.service.impl;
 
-import microservicio_inventario.model.Producto;
-import microservicio_inventario.repository.ProductoRepository;
-import microservicio_inventario.repository.CategoriaRepository;
-import microservicio_inventario.repository.InventarioRepository;
-import microservicio_inventario.service.ProductoService;
+import com.example.microservicio_inventario.model.Producto;
+import com.example.microservicio_inventario.repository.ProductoRepository;
+import com.example.microservicio_inventario.repository.CategoriaRepository;
+import com.example.microservicio_inventario.repository.InventarioRepository;
+import com.example.microservicio_inventario.service.ProductoService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.List;

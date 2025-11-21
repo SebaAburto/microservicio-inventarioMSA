@@ -1,4 +1,4 @@
-package microservicio_inventario.model;
+package com.example.microservicio_inventario.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

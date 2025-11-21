@@ -1,9 +1,9 @@
-package microservicio_inventario.repository;
+package com.example.microservicio_inventario.repository;
 
-import microservicio_inventario.model.Categoria;
+import com.example.microservicio_inventario.model.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@repository
+@Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Long> {
 }

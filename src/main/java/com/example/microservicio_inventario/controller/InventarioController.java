@@ -1,9 +1,9 @@
-package microservicio_inventario.controller;
+package com.example.microservicio_inventario.controller;
 
-import microservicio_inventario.model.Inventario;
-import microservicio_inventario.dto.InventarioDTO;
-import microservicio_inventario.assembler.InventarioAssembler;
-import microservicio_inventario.service.InventarioService;
+import com.example.microservicio_inventario.model.Inventario;
+import com.example.microservicio_inventario.DTO.InventarioDTO;
+import com.example.microservicio_inventario.assembler.InventarioAssembler;
+import com.example.microservicio_inventario.service.InventarioService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v1/inventario")
+@RequestMapping("/api/v1/inventario")
 public class InventarioController {
 
     private final InventarioService inventarioService;

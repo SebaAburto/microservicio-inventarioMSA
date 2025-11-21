@@ -1,6 +1,6 @@
-package microservicio_inventario.service;
+package com.example.microservicio_inventario.service;
 
-import microservicio_inventario.model.Categoria;
+import com.example.microservicio_inventario.model.Categoria;
 import java.util.List;
 
 public interface CategoriaService {

@@ -1,4 +1,4 @@
-package microservicio_inventario.dto;
+package com.example.microservicio_inventario.DTO;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
